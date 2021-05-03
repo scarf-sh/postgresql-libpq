@@ -87,7 +87,7 @@ library
       extra-libraries: libpq
 
     else
-      extra-libraries: pq
+      extra-libraries: pq ssl crypto
 
       if os(openbsd)
         extra-libraries:
